@@ -48,6 +48,20 @@ async function main(){
         console.log(duration);
         
     })
+    
+
+
+
+
+
+
+
+
+
+
+    // // add an event listner for hamburger
+    // document.querySelector(".hamburger").addEventListener("click", () => document.querySelector(".left").style.left="0"
 }
 
 main();
+
