@@ -19,6 +19,7 @@ body{
 .right{
     width: 75vw;
     margin: 16px 0;
+    overflow-x: hidden;
 }
 
 .logo{
@@ -225,6 +226,9 @@ body{
     font-size: 12px;
 }
 
+.hamburger{
+    display: none;
+}
 
 @media (max-width: 1400px) {
     .left{
@@ -232,6 +236,18 @@ body{
         position: absolute;
         left: -100%;
         transition: all 3s;
+        z-index: 0;
+    }
+    .right{
+        padding: 10px;
+        height: 100vh;
+        width: 130%;
+    }
+    .playbar{
+        width: 95%;
+    }
+    .hamburger{
+       display: block;
     }
 
 }
