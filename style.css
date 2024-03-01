@@ -25,6 +25,10 @@
     .logo{
         width: 35vw;        
     }
+    .logo img{
+        width: 120px;
+        height: 35px;
+    }
 
     .home ul li{
         display: flex;
@@ -232,6 +236,9 @@
     .hamburger{
         display: none;
     }
+    .close{
+        display: none;
+    }
 
     .seekbar{
         height: 2px;   
@@ -250,6 +257,8 @@
         width: 20px;
         border-radius: 13px;
         background-color: black;
+        left: 0%;
+        transition:left 0.5s;
     }
 
     @media (max-width: 1200px) {
@@ -258,7 +267,7 @@
             position: absolute;
             left: -100%;
             transition: all 3s;
-            z-index: 0;
+            z-index: 1;
         }
         .right{
             padding: 10px;
@@ -283,6 +292,16 @@
             align-items: center;
             gap: 15px;
         }
+        .close{
+            position: absolute;
+            right: 5%;
+            display: flex;
+            top: 3%;
+            
+            
+
+        }
+    
         
 
     }
